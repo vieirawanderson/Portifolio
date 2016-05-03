@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="32" tileheight="32" nextobjectid="216">
+ <tileset firstgid="1" source="tiles.tsx"/>
+ <tileset firstgid="2" source="triggers.tsx"/>
+ <tileset firstgid="14" name="build1" tilewidth="32" tileheight="32">
+  <image source="img/blocks/build1.png" width="896" height="1088"/>
+ </tileset>
+ <tileset firstgid="966" name="car02" tilewidth="32" tileheight="32">
+  <image source="img/blocks/cannonWater.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="1062" name="build2" tilewidth="32" tileheight="32">
+  <image source="img/blocks/build2.png" width="736" height="480"/>
+ </tileset>
+ <layer name="behind5" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1lsOgjAQBdDGNbnULkX3ATtSYgh1bJvwgZZ4TkICZXjNDdCUAAAAAAAAAAAAAAAA4Hfyjtrbc7kfdSMDXfMs5DGWo3rTO6c8NvFbtqc3e2rlscmp/Q9p5VGrjz2r1V4vW205Xh6bw9i/5dETs+rlMYftWh/LPEq1fsvjZXn2Vg/K8VjTej9q+2t5tDKSR7uX8vg+eYxFHmORx1jkMZZl3jql9/nruj411lP6nO/29sfauTK2ZhDPAwCc3wNA2X3M
+  </data>
+ </layer>
+ <layer name="behind 4" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAeDBOIAAB
+  </data>
+ </layer>
+ <layer name="behind 3" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1UdOAzEYhmEDyQnovSzpLQ3Y0FsSAmzoLQ24AJAGHIHOYWnvliEazWYETL5XenaRPf4tOcYopZRSSimllFJKKaWUUkoppZRSSimllFJKKfW/evMZ844PfML4jalCNWr8v/11xrTyDW1oRwc60YXuP/BtblTLuepQjwY0ognNaLGc2W42PS7NZ5R1xzCOAIIIIezR++jlXH3oxwAGMYRhjFjObDebiEvzWWbdFawiihjiWPPofUxzrhnMYg7zWMAilixntptNwqX5HLHuMU6QRAppZDx6H1ucaxs72MUe9nGAQ8uZ7WaTLTMfp+9bgP+tIEIII4IJTOKC313iCjnkUUDRo/dhN4sp3/ff2s2mVGY+Tt+3KPvEEMcaEljHBjZ9P9f1cm7Owun7lmSfFNLIIItTnOG8wu7DzVk4fd9y7JNHAUWUcI0b3FbYfbg5C6fv2x373OMBj3jCM17wWmH3oVkopZRSSimllFJKKaUqoS81yFF0
+  </data>
+ </layer>
+ <layer name="behind" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1Olpw0AUhdH5IWXtv4fsLiF7SsieEuKsBeQW4DCSsOIgnwMfCITA897gUgAAAAAAAAAAAAAAAFiVvaaU/XSQDtNROk4nadas+tctT+2cQ+YwxuxO891ZOk8X6TJdpet0M6F91M45ZA59vum6u9s836X79JAe01N6Ti8T2kftnEPm0Oebrrt7zfM8vaX39JE+01f6ntA+audc9L52p/vMruvumraUNm2kzbSVttNO2m3/dmZjqp1z0fvane4zu3W592Na5n/5utz7MbnT/4s7DQAAAPzmBzzJnMc=
+  </data>
+ </layer>
+ <layer name="front" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlj1uwkAYBdc+Qi5FD+EUORJJDTkBcIEQakgdfpI65AIkj4ICyzYWxsuzmJFHWq12t/imcQgAAAAAAADx+EvzfQiXWYTrW260ucdTxrL9tkAPL4p6dMJlFtHEW9m5l+23hWv3GOruSL6mp2t6VOPaPT51dyXX6em6ibb0iNvj3Fv08JIeXtLDS3p4SQ8v6eElPbykh5f08JIeXtLDS3p4ea893uRMvst5iDdveuT32Mit/JLfId686ZHfY384dzic6Etu34Ee9IhFlR5dNejJR9mnR6Pwf+UFPbyghxf08IIeXhT1aEMTenhJDy/p4SU9vHTpMdCsnuVLWv8tetRnrFlN5JQeFj0WmtVSftDDosePZrWTvzV73HqeTfU4CgAAcA/8AxULLeo=
+  </data>
+ </layer>
+ <layer name="set" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmtduE0EUhmdJ5gGixJQUmuAGMEkoKZd0QhdFgtCL4RHovBkCnoBb024oj4AACRI+ix0UxWtv1tlyZvd80mfPaMbW7Blb/j120xjTDH2H7zv0XXt5f/lYWjZ7HOv2mKVKu1b3vKbPVAMPrrO1Jz6sMxU8uM7vrRsP1pkKHlznQGC8WGcqeHCddd0PUczpfoiiofshikrlKw+oVL7ygErlKw+oVL7ygP/5yqkUSmPJfgS6H4Xj8pXuhQw0X8lC85UsNF/JolLnVx7Q8fxK828hvGzdRNQ90P0ohG7niZqB80fzriw078pC864s9DxRFnqeKAuXd3UvZKC/n8tC864sOuZd/XwvhE55V89LiqHb+a5+xudPpf6f6AFVy1ej1pgx3IibcDNuwa323/iIjZ/j+N1vzB9cwEU0jAe4Bvts/HgUVctXe6nDPtyPUziNMzgb1mePjZ/jGKQ/hDVci+twPW7AYRs/HsVAgvOSz/gFv+K3iH5erGYdJ6jDSTyFp/EMnsVzYX3mbPwcxw76O3EX1nE3juMETtr48SjqCc5LFnCx1eAxQdDez4vVrOM2dbiDd/EeNvA+Pgjrc8vGz3EcoH8QD+FhPIJH8Rget/HjUbh8tZIsVYb9eEQdHuMTfIrP8Dm+COvz0MbPcVymfwXn8Spew+t4A2/a+PEokuSrMuyHdJLkq5XW4W3G92XejyT5Svcje5L8XjvM3BEcxbGgvZ8XUtaRBUl+r51i7jTO4GzQ3s8LKevIgiT/TzzP3At4ES8F7f28SHMd2/jevL0/m3X2QitfveL+Nb4x+bY/4Ef8VKK2lOfopf0Df+KvkrR9r8sg780hrAXpt4t6jUmvi7R6Zf0aS6NG4ziBkzm2y/ierKVUo78oDEMF
+  </data>
+ </layer>
+ <layer name="front3" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1lsKwjAQBdB2iz627GMbPrahjp8BIaCWTNJz6IVCYGCSnztNAAAAAMAnh8gxcoqcE83qwRL7XiLXyC1yTzSrB0vs+4g83z9zfHOeWT1YYl/v8b0l9t3EnG1kF9n/OPOfs3qwtn2BftX6bvbz0dT6bvbz0dT6Vfbz0bS+T+9RqvXd7OfAerTuq/puqXVf1XdLrfuRflVqfZ/eo9S6r+q7AAAAAAAAwGhevWyz4w==
+  </data>
+ </layer>
+ <layer name="car" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0WVOQ1EUReEL70FxijtF5z8L3N3d3d0WY2humjRrJd//k31CMDMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzPLr5EkhFGMYRwTmMQUpjGDWcxhPin0tcXfAhsvYgnLWMEq1rCODWxiC9v+I3o7bLyLPezjAIc4wjFOcIoznPuP6F2w8SWucI0b3OIO93jAI57w7D+i98LGr3jDOz7wiS984we//39IQyhJC31t8VfKxglSlKEcGVSgElWoRg1q/Uf06ti4Hlk0oBFNaEYLWtGGdnT4j+h1snEXutGDXuTQh34MYBBDGPYfZmZmlmd/qE43Vw==
+  </data>
+ </layer>
+ <objectgroup color="#a40b00" name="triggers" visible="0">
+  <properties>
+   <property name="platform" value=""/>
+  </properties>
+  <object id="1" name="tlrb" x="0" y="32" width="32" height="1536">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="2" name="tlrb" x="3168" y="32" width="32" height="1536">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="3" name="tlrb" x="0" y="0" width="3200" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="4" name="tlrb" x="0" y="1568" width="3200" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="22" name="Player" gid="2" x="1760" y="96"/>
+  <object id="75" name="tlrb" x="32" y="1440" width="3136" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="86" name="tlrb" x="224" y="288" width="32" height="888">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="122" gid="3" x="2413" y="1320"/>
+  <object id="123" gid="3" x="2536" y="1320"/>
+  <object id="134" gid="5" x="3087" y="1376"/>
+  <object id="135" gid="5" x="2121" y="1376"/>
+  <object id="163" name="tlrb" x="1856" y="38" width="32" height="240">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="169" name="platform" x="32" y="384" width="64" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="171" name="platform" x="224" y="256" width="448" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="172" name="platform" x="864" y="256" width="416" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="173" name="platform" x="1472" y="256" width="384" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="179" name="platform" x="160" y="608" width="64" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="180" name="platform" x="32" y="800" width="64" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="181" name="platform" x="160" y="957" width="64" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="182" name="platform" x="32" y="1152" width="64" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="183" name="tlrb" x="640" y="288" width="32" height="192">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="184" name="tlrb" x="864" y="288" width="32" height="192">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="185" name="tlrb" x="1472" y="288" width="32" height="192">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="186" name="tlrb" x="1248" y="288" width="32" height="192">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="187" name="tlrb" x="576" y="480" width="320" height="32">
+   <properties>
+    <property name="blockers" value="d"/>
+   </properties>
+  </object>
+  <object id="188" name="tlrb" x="1184" y="480" width="320" height="32">
+   <properties>
+    <property name="blockers" value="d"/>
+   </properties>
+  </object>
+  <object id="189" gid="3" x="2474" y="1320"/>
+  <object id="193" gid="3" x="2598" y="1320"/>
+  <object id="194" gid="3" x="2720" y="1320"/>
+  <object id="195" gid="3" x="2661" y="1320"/>
+  <object id="196" gid="3" x="2776" y="1320"/>
+  <object id="197" gid="3" x="2887" y="1320"/>
+  <object id="198" gid="3" x="2833" y="1320"/>
+  <object id="199" gid="4" x="3104" y="1376"/>
+  <object id="201" name="platform" x="2336" y="1248" width="672" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object id="202" gid="6" x="1872" y="1312"/>
+  <object id="203" gid="2" x="1824" y="1284"/>
+  <object id="204" gid="3" x="2936" y="1320"/>
+  <object id="205" gid="3" x="3028" y="1320"/>
+  <object id="206" gid="3" x="2984" y="1320"/>
+  <object id="212" gid="3" x="2348" y="1320"/>
+  <object id="213" gid="3" x="2230" y="1320"/>
+  <object id="214" gid="3" x="2289" y="1320"/>
+  <object id="215" gid="3" x="2177" y="1320"/>
+ </objectgroup>
+</map>

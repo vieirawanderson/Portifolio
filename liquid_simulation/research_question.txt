@@ -1,0 +1,92 @@
+Research question:
+
+Use of Hooke's spring law to create an animated physics-based liquid simulation of a droplet falling. 
+
+Provide a description of the goals and objectives of your proposed Academic Training:
+
+Goals:
+Render a short animation of a liquid droplet falling on a surface of the same liquid using Hooke’s law to simulate the reaction behavior. The simulation is based in adding a drop of liquid to a 'large' volume of liquid and observing how the surface of the large volume is displaced by the force of the droplet.
+
+Objectives
+The previously literature study had shown that physical interaction in liquids can have a high complexity and demand an exhaustive work to represent every variable according to the real physic phenomena. Thus, the main objective of the research is proof that this complex physical interaction can be simplified down to modeling the surface of the volume as a network of springs and dampeners. Moreover, the research approach general computer graphics and programming techniques knowledge.
+
+The product behavior of the research is going to be an animation movie that last few seconds and simulate a single detailed droplet reaction beside surface. The outcome is going to show a 3D surface that reacts according to real singularities and keep looping showing it sequentially. Illumination and shading techniques will be applied to the animation to provide a better and convincing result. 
+
+As secondary objective, the research seeks out a simplified understanding and application of the physical behavior of liquid dropping and its reactions using known equations to write an algorithm that render the animation. The equations are necessary to change the objects properties along the time and makes it looks like coherently with a real reaction.
+
+Provide a description of how this Academic Training opportunity relates to your program and major.
+
+The academic training will provide an improvement of programming and algorithm development skills. Moreover, it will offer an opportunity to apply the acquired knowledge during the academic life in a real situation simulating a tangible product. 
+
+Day-by-day
+
+The daily activities will be mostly (but not exclusively) based on regular meetings with the supervisor, document what we had done, implement the methods and algorithms necessary to render the animation, commit the files changes and additions regularly, and set the goals and achieve it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hypothesis
+
+(First statement option)
+
+Use of springs and Navier-stokes equations to create an animated physics-based liquid simulation of a droplet falling. 
+
+(Second statement option)
+
+Do springs and Navier-stokes equations simulate a liquid surface and a falling droplet reacting with this surface? 
+
+Do hooke's law simulate a liquid surface and a falling droplet reacting with this surface? 
+
+
+Use of Hooke's spring law to create an animated physics-based liquid simulation of a droplet falling. 
+
+
+
+General tools and knowledge:
+
+Navier–Stokes equations (fluid mechanics)
+Hooke’s law (springs)
+Principles of conservation of mass
+Principles of conservation of momentum
+Generate animation using ray tracer (povray)
+openGL API
+
+
+Provide a description of the goals and objectives of your proposed Academic Training:
+
+Goals:
+Render a short animation of a liquid droplet falling on a surface of the same liquid using Hooke’s law to simulate the reaction behavior.
+
+Objectives
+The main objective of the research is proof that Hooke’s law (springs) can be used to generate a convincing animation of the phenomena in question. Moreover, the research approach general computer graphics and programming techniques knowledge.
+
+(What is the phenomena? It's adding a drop of liquid to a 'large' volume of liquid and observing how the surface of the large volume is displaced by the force of the droplet. Your claim is that this complex physical interaction can be simplified down to modeling the surface of the volume as a network of springs and dampeners.)
+
+The product behavior of the research is going to be a short (define short) animation movie that simulate a single detailed water drop reaction beside a water surface. The outcome is going to show a 3D surface that reacts according to real singularities and keep looping showing it sequentially. (What about lighting?)
+
+As secondary objective, the research seeks out a simplified understanding and application of the physical behavior of liquid dropping and its reactions using known equations to write an algorithm that render the animation. The equations are necessary to change the objects properties along the time and makes it looks like coherently with a real reaction.
+
+
+ 
+Provide a description of how this Academic Training opportunity relates to your program and major.
+
+The academic training will provide an improvement of programming and algorithm development skills. Moreover, it will offer an opportunity to apply the acquired knowledge during the academic life in a real situation simulating a tangible product. 
+
+
+Literature Review
+See .bib file
+(Generate an annotated bibliography.)

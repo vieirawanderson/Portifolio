@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="32" tileheight="32" nextobjectid="312">
+ <tileset firstgid="1" source="triggers.tsx"/>
+ <tileset firstgid="13" name="imgF" tilewidth="32" tileheight="32">
+  <image source="img/bkg/imgF.png" width="1024" height="640"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwN0wOSIAYAAMHN2bZt27Zt27Zt27Zt20zOtm2mq6afMGEDAgLCEZ4IRCQSkYlCVKIRnRjEJBaxiUNc4hGfBCQkEYlJQlKSkZwUpCQVqUlDWtKRngxkJBOZyUJWspGdHOQkF7nJQ17ykZ8CFKQQhSlCUYpRnBKUpBSlKUNZylGeClSkEpWpQlWqUZ0a1KQWtalDXepRnwY0pBGNaUJTmtGcFrSkFa1pQ1va0Z4OdKQTnelCV7rRnR70pBe96UNf+tGfAQxkEIMZwlCGMZwRjGQUoxnDWMYxnglMZBKTmcJUpjGdGcxkFrOZw1zmMZ8FLGQRi1nCUpaxnBWsZBWrWcNa1rGeDWxkE5vZwla2sZ0d7GQXu9nDXvaxnwMc5BCHOcJRjnGcE5zkFKc5w1nOcZ4LXOQSl/mX/7jCVa5xnRvc5Ba3ucNd7nGfBzzkEY95wlOe8ZwXvOQVr3nDW97xng985BOf+cJXvvGdH/zkF7/5w18C/hGBCEwQghKM4IQgJKEITRjCEo7wRCAikYhMFKISjejEICaxiE0c4hKP+CQgIYlITBKSkozkpCAlqUhNGtKSjvRkICOZyEwWspKN7OQgJ7nITR7yko/8FKAghShMEYpSjOKUoCSlKE0ZylKO8lSgIpWoTBWqUo3q1KAmtahNHepSj/o0oCGNaEwTmtKM5rSgJa1oTRva0o72dKAjnehMF7rSje70oCe96E0f+tKP/gxgIIMYzBCGMozhjGAkoxjNGMYyjvFMYCKTmMwUpjKN6cxgJrOYzRzmMo/5LGAhi1jMEpayjOWsYCWrWM0a1rKO9WxgI5vYzBa2so3t7GAnu9jNHvayj/0c4CCHOMwRjnKM45zgJKc4zRnOco7zXOAil7jMv/zHFa5yjevc4Ca3uM0d7nKP+zzgIY94zBOe8oznvOAlr3jNG97yjvd84COf+MwXvvKN7/zgJ7/4zR/+EhDI/wQiMEEISjCCE4KQhCI0YQhLOMITgYhEIjJRiEo0ohODmMQiNnGISzzik4CEJCIxSUhKMpKTgpSkIjVpSEs60pOBjGQiM1nISjayk4Oc5CI3echLPvJTgIIUojBFKEoxilOCkpSiNGUoSznKU4GKVKIyVahKNapTg5rUojZ1qEs96tOAhjSiMU1oSjOa04KWtKI1bWhLO9rTgY50ojNd6Eo3utODnvSiN33oSz/6M4CBDGIwQxjKMIYzgpGMYjRj+B9dWidq
+  </data>
+ </layer>
+ <objectgroup color="#a40b00" name="triggers" visible="0">
+  <properties>
+   <property name="platform" value=""/>
+  </properties>
+  <object id="1" name="tlrb" x="0" y="0" width="32" height="640">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="3" name="tlrb" x="32" y="0" width="992" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="288" gid="1" x="512" y="242"/>
+  <object id="290" name="tlrb" x="32" y="416" width="992" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="291" name="tlrb" x="992" y="0" width="32" height="640">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="292" name="tlrb" x="24" y="608" width="992" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object id="293" gid="4" x="0" y="544"/>
+  <object id="294" gid="4" x="992" y="544"/>
+  <object id="296" gid="2" x="64" y="488"/>
+  <object id="297" gid="2" x="128" y="488"/>
+  <object id="299" gid="2" x="192" y="488"/>
+  <object id="300" gid="2" x="256" y="488"/>
+  <object id="301" gid="2" x="320" y="488"/>
+  <object id="302" gid="2" x="384" y="488"/>
+  <object id="303" gid="2" x="448" y="488"/>
+  <object id="305" gid="2" x="512" y="488"/>
+  <object id="306" gid="2" x="576" y="488"/>
+  <object id="307" gid="2" x="640" y="488"/>
+  <object id="308" gid="2" x="704" y="488"/>
+  <object id="309" gid="2" x="768" y="488"/>
+  <object id="310" gid="2" x="832" y="488"/>
+  <object id="311" gid="2" x="896" y="488"/>
+ </objectgroup>
+</map>
