@@ -1,0 +1,13 @@
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\Desputados.API.Repositorio.dll.config
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\Desputados.API.Repositorio.dll
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\Desputados.API.Repositorio.pdb
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\EntityFramework.dll
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\EntityFramework.SqlServer.dll
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\MySql.Data.dll
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\MySql.Data.Entity.EF6.dll
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\MySql.Web.dll
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\EntityFramework.xml
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\bin\Release\EntityFramework.SqlServer.xml
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\obj\Release\Desputados.API.Repositorio.csprojResolveAssemblyReference.cache
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\obj\Release\Desputados.API.Repositorio.dll
+C:\Projetos\desputados\backend\Desputados.API.Repositorio\obj\Release\Desputados.API.Repositorio.pdb

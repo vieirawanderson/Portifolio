@@ -1,0 +1,30 @@
+<ion-view title="Login" id="page2" style="background-color:#E8E8E8;" class=" ">
+    <ion-content padding="true" class="has-header" ng-controller="loginCtrl">
+        <div class="" style="margin-left: -10px; width: calc(100% + 20px);">
+            <a style="display:block;" href="#">
+                <img src="img/60WEM6FWTASFdyx27CV8_descomplica_.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+            </a>
+        </div>
+        <div class="spacer" style="width: 300px; height: 43px;"></div>
+
+        <form ng-submit="onLogin(data)">
+          <div class="list">
+            <div class="list list-inset">
+              <label class="item item-input">
+                <span class="input-label">E-mail</span>
+                <input type="text" placeholder="Digite seu email de cadastro!" ng-model="data.email" required="true">
+              </label>
+              </div>
+              <br /><br />
+              <button class="button button-block button-positive" type="submit">
+                  Login
+              </button>
+          </div>
+          </form>
+          <button class="button button-full button-positive button-block button-clear" ng-click="onNewUser()">ou se cadastre agora!</button>
+
+            <!-- <a ui-sref="menu" id="login-button10" class=" button button-positive  button-block ">Log in</a> -->
+          <!-- <a href="#" onclick="window.open('http://descomplica.com.br/assinatura/?utm_source=ads_googleinst&amp;utm_medium=search&amp;utm_campaign=PSQ_-_Institucional_-_RLSA&amp;utm_term=Descomplica&amp;utm_content=Descomplica_Vestibulares&amp;gclid=COzQvYfs9cwCFYEehgod3_cEtg', '_system', 'location=yes'); return false;"
+          id="login-button11" class=" button button-positive  button-block button-clear ">ou se cadastre agora!</a> -->
+    </ion-content>
+</ion-view>

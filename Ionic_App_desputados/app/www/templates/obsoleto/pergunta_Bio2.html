@@ -1,0 +1,18 @@
+<ion-view title="Pergunta_Bio" id="page3" style="background-color:#FBE74F;" class=" ">
+    <ion-content padding="true" class="has-header">
+        <h1 id="pergunta_Bio-heading2" style="color:#175782;text-align:center;" class=" ">{{question.assunto}}</h1>
+        <div class="">
+            <img src="img/spvSHsBAROUZlVIPmNfg_bio.png" width="50%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <div class="spacer" style="width: 283px; height: 41px;"></div>
+        <p id="pergunta_Bio-markdown3" style="color:#12C977;font-size:18px;text-align:justify;" class=" ">{{question.enunciado}}</p>
+        <form id="pergunta_Bio-form6"
+          <ion-list>
+            <ion-item ng-repeat="item in question.opcoes track by $index">
+              <ion-radio ng-model="filter.blue" ng-value="{{item.opcoes.opcao}}">{{item.enunciadoAtl}}</ion-radio>
+            </ion-item>
+          </ion-list>
+          <a ui-sref="pergunta_Quim" id="pergunta_Bio-button18" class=" button button-positive  button-block ">Próxima</a>
+        </form>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,23 @@
+<ion-view title="Rank" id="page4" style="background-color:#FF6161;" class=" ">
+    <ion-content padding="true" class="has-header">
+        <h1 id="rank-heading3" style="color:#FBE74F;text-align:center;" class=" ">Ranking</h1>
+
+        <ion-list>
+          <ion-item class="item-icon-right positive"
+            ng-repeat="item in ranking|limitTo:10"
+            ng-value="item.nomeUsuario">
+            <div class="row">
+              <div class="col col-75">
+                #{{$index +1}}<br>{{item.nomeUsuario}}
+              </div>
+              <div class="col col-25">
+                {{item.pontuacao}} pts
+              </div>
+            </div>
+            <i class="icon ion-ribbon-b"></i>
+          </ion-item>
+        </ion-list>
+        <a ui-sref="menu" id="rank-button19" style="color:#FF6161;" class=" button button-energized  button-block ">Voltar</a>
+
+    </ion-content>
+</ion-view>

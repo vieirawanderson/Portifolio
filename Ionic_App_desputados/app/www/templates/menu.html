@@ -1,0 +1,21 @@
+<ion-view title="Desputados" id="page6" style="background-color:#E8E8E8;" class=" ">
+    <ion-content padding="true" class="has-header" ng-controller="mainController">
+        <div class="">
+            <img src="img/j734CRRiqKkA34seswSh_Foto.jpg" width="30%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <form id="menu-form9" class="list ">
+            <div class="spacer" style="width: 300px; height: 16px;"></div>
+            <h1 id="menu-heading13" style="color:#175782;text-align:center;" class=" ">Bem-vindo {{user.usuario.nome}}</h1>
+        </form>
+        <h2 id="menu-heading13" style="color:#175782;text-align:center;" class=" ">Você Possui {{myScore.pontuacao}} Pontos!</h2>
+        <div class="spacer" style="width: 283px; height: 14px;"></div>
+        <form id="menu-form7" class="list ">
+
+
+            <button class="button button-full button-assertive button-block" ng-click="menuPopUp()">COMEÇAR QUIZ!</button>
+            <!-- <a ui-sref="pergunta_Random" id="menu-button21" class=" button button-assertive  button-block ">COMEÇAR QUIZ!</a> -->
+            <a ui-sref="rank" id="menu-button23" class=" button button-balanced button-small button-block ">Ranking</a>
+            <a ui-sref="login" id="menu-button24" style="color:#FA0707;" class=" button button-stable button-small button-block ">Sair da minha conta</a>
+        </form>
+    </ion-content>
+</ion-view>

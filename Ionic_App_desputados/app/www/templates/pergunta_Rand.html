@@ -1,0 +1,22 @@
+<ion-view title="Pergunta" id="page3" style="background-color:#FBE74F;" class=" ">
+    <ion-content padding="true" class="has-header">
+        <h1 id="pergunta_Bio-heading2" style="color:#175782;text-align:center;" class=" ">{{question.assunto}}</h1>
+        <div class="">
+            <img src="img/image_{{category}}.png" width="50%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <div class="spacer" style="width: 283px; height: 41px;"></div>
+        <p style="color:#12C977;font-size:16px;text-align:justify;" ng-bind-html=question.enunciado></p>
+        <form id="pergunta_Bio-form6"
+          <ion-list>
+            <ion-radio  ng-repeat="item in question.alternativas"
+                        ng-value="item.alternativaCorreta"
+                        ng-click="onMarkQuestion(item)"
+                        ng-checked="item.alternativaCorreta">
+                        {{item.descricao}}
+            </ion-radio>
+            <button class="button button-full button-positive button-block" ng-disabled="marked" ng-click="checkAnswer(question)">Proxima</button>
+
+          </ion-list>
+        </form>
+    </ion-content>
+</ion-view>
